@@ -1,0 +1,9 @@
+name: StarJoinMessage
+version: '${project.version}'
+main: com.mcstaralliance.starjoinmessage.StarJoinMessage
+authors: [ LDS_XiaoYe ]
+commands:
+  slm:
+permission:
+  slm:
+    default: op
