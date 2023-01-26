@@ -2,5 +2,7 @@ settings:
   # 权限与消息一一对应
   permissions:
     - "starcraft.login.mvp"
+    - "starcraft.login.mvp+"
   messages:
     - "%player% 上线了"
+    - "%player% 上线了2"
