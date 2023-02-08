@@ -11,17 +11,11 @@ public final class StarJoinMessage extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        // Plugin startup logic
         instance = this;
         saveDefaultConfig();
         getServer().getPluginManager().registerEvents(new PlayerJoinListener(), this);
         Bukkit.getPluginCommand("slm").setExecutor(new StarCommand());
 
-    }
-
-    @Override
-    public void onDisable() {
-        // Plugin shutdown logic
     }
 
     public static StarJoinMessage getInstance(){
